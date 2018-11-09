@@ -20,11 +20,3 @@ ac2 = AnswerChoice.create!(text: "Dude, they're all around you!", question_id: q
 
 Response.create!(answer_choice_id: ac1.id, user_id: a.id)
 Response.create!(answer_choice_id: ac2.id, user_id: c.id)
-
-
-
-
-
-
-
-
